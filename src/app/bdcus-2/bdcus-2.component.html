@@ -1,0 +1,77 @@
+<div *ngIf="customer()" class="min-h-screen flex flex-col items-center justify-center overflow-hidden relative font-sans px-3 transition-all duration-700 bg-cover bg-center"
+     [ngStyle]="{'background-image': customer().bgImage ? 'url(' + customer().bgImage + ')' : 'none', 'background-color': customer().theme.secondary}">
+  
+  <div class="absolute inset-0 pointer-events-none z-0">
+    <div *ngFor="let b of floatingElements" class="floating-item absolute text-3xl opacity-20">{{ b }}</div>
+  </div>
+
+  <div class="text-center mb-8 z-10 px-4 max-w-xl mx-auto">
+    <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3 drop-shadow-md text-center" [style.color]="customer().theme.primary">
+      {{ customer().title ? customer().title : (customer().type === 'anniversary' ? 'Happy Anniversary' : 'Happy Birthday') }}
+      {{ customer().name ? ' ' + customer().name : '' }}🎉
+    </h1>
+    <p id="main-typewriter" class="text-base sm:text-lg italic font-light leading-relaxed" [style.color]="customer().theme.text"></p>
+  </div>
+
+  <div class="relative flex flex-col items-center">
+    <div class="absolute inset-0 flex justify-center items-start z-50 pointer-events-none">
+      <div class="flex gap-4 -mt-10">
+        <span *ngFor="let icon of (customer().floatingIcon || fruits); let i = index" 
+              (click)="popFruit($event, i)" 
+              [id]="'fruit-' + i"
+              class="topping text-5xl md:text-6xl cursor-pointer pointer-events-auto select-none drop-shadow-lg">
+          {{ icon }}
+        </span>
+      </div>
+    </div>
+    
+    <div class="cake-container relative z-10 scale-75 md:scale-90 lg:scale-100">
+      <img [src]="customer().cakeImage || 'assets/cake.webp'" 
+           class="w-64 md:w-80 object-contain drop-shadow-2xl mx-auto" 
+           [alt]="customer().name + ' Event Cake'" />
+    </div>
+  </div>
+
+  <div class="mt-12 z-20 opacity-0" id="action-btn">
+    <p-button [label]="customer().type === 'anniversary' ? 'Open My Love' : 'Open My Heart'"
+              icon="pi pi-heart-fill" 
+              [style]="{'background-color': customer().theme.primary, 'border-color': customer().theme.primary}"
+              styleClass="p-button-rounded p-button-lg px-8 py-3 shadow-lg" 
+              (onClick)="openSpecialDialog()"></p-button>
+  </div>
+
+  <p-dialog [(visible)]="showMessage" [modal]="true" [draggable]="false" [closable]="true" [style]="{ width: '90vw', maxWidth: '520px' }">
+    <div class="flex flex-col items-center text-center p-3">
+      
+      <div class="w-full mb-6 overflow-hidden rounded-lg shadow-md" *ngIf="videoUrl()">
+        <div class="aspect-video bg-black flex items-center justify-center">
+          
+          <iframe *ngIf="customer().youtubeId" 
+                  class="w-full h-full" 
+                  [src]="videoUrl()" 
+                  frameborder="0" 
+                  allow="autoplay; encrypted-media" 
+                  allowfullscreen>
+          </iframe>
+
+          <video *ngIf="!customer().youtubeId && customer().videoFile" 
+                 class="w-full h-full object-contain" 
+                 controls 
+                 autoplay>
+            <source [src]="videoUrl()" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+        </div>
+      </div>
+
+      <div class="flex gap-4 sm:gap-6 mb-6 justify-center items-center flex-wrap">
+        <img *ngIf="customer().photo1" [src]="customer().photo1" class="w-16 h-16 sm:w-24 sm:h-24 rounded-full border-2 border-white object-cover shadow-md" />
+        <img *ngIf="customer().photo2" [src]="customer().photo2" class="w-16 h-16 sm:w-24 sm:h-24 rounded-full border-2 border-white object-cover shadow-md" />
+        <img *ngIf="customer().photo3" [src]="customer().photo3" class="w-16 h-16 sm:w-24 sm:h-24 rounded-full border-2 border-white object-cover shadow-md" />
+      </div>
+
+      <p id="dialog-typewriter" class="text-sm sm:text-base leading-relaxed italic" [style.color]="customer().theme.text"></p>
+    </div>
+  </p-dialog>
+</div>

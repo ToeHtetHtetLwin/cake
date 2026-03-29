@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cus-zin-01",
+    "type": "birthday",
+    "title": "Happy Birthday",
+    "name": "Thel Lay",
+    "floatingIcon": ["🍓", "🍒", "🫐", "🍓", "🍇"],
+    "shortIntro": "Happy Birthday to my favorite person!",
+    "longMessage": "မွေးနေ့မှာ ပျော်ရွှင်ပါစေ၊သဲလေး ။ကိုကို. ဘဝထဲကို ရောက်လာပေးလို့ ကျေးဇူးအများကြီးတင်ပါတယ်၊အမြဲတမ်း ပြုံးပျော်နိုင်ပါစေ။ဒီနှစ်ကစပြီးအောင်မြင်မှုတွေ အများကြီးပိုင်ဆိုင်နိုင်ပါစေ။ I Love You.🎂",
+    "youtubeId": "",
+    "videoFile": "/videos/zin.mp4",
+    "photo1": "photos/zin1.jpg",
+    "photo2": "photos/zin2.jpg",
+    "photo3": "",
+    "cakeImage": "photos/cake.webp",
+    "bgImage": "",
+    "theme": {
+      "primary": "#ec4899",
+      "secondary": "rgba(255, 255, 255, 0.3)",
+      "text": "#500724"
+    }
+  },
+  {
+    "id": "cus-ms-02",
+    "type": "birthday",
+    "title": "Happy Birthday",
+    "name": "",
+    "floatingIcon": ["🍓", "🍒", "🫐", "🍓", "🍇"],
+    "shortIntro": "My Chicago!",
+    "longMessage": "မွေးနေ့ကစလို့ ပျော်ရွင်ပါစေ အချစ်ရေ၊၊အမြဲတမ်း မင်းကိုပျော်နေစေချင်တယ်။မင်းနဲ့တွေ့ဆုံခဲ့ရခြင်းအတွက် ပြောမပြတတ်အောင်ပါပဲ။ ပျော်ပျော်နေပါ အချစ်ရေ။နောက်ကျရင်ဆိုရင် အိပ်မက်တွေကို အကောင်အထည် ဖော်နိုင်မယ့်အချိန်ထိ အတူရှိ‌ချင်ပါတယ်။ဘယ်လောက်ပင်ပန်းနေပါစေ အတူ ရင်ဆိုင်သွားရအောင် အချစ်ရေ။🎂",
+    "youtubeId": "",
+    "videoFile": "/videos/ms.mp4",
+    "photo1": "photos/ms1.jpg",
+    "photo2": "photos/ms2.jpg",
+    "photo3": "photos/ms3.jpg",
+    "cakeImage": "photos/cake.webp",
+    "bgImage": "/background/love.jpg",
+    "theme": {
+      "primary": "#ec4899",
+      "secondary": "rgba(255, 255, 255, 0.3)",
+      "text": "#500724"
+    }
+  }
+]
