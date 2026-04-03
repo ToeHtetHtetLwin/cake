@@ -40,5 +40,26 @@
       "secondary": "rgba(255, 255, 255, 0.3)",
       "text": "#500724"
     }
+  },
+   {
+    "id": "cus-nc-03",
+    "type": "birthday",
+    "title": "Happy Birthday",
+    "name": "Yoon",
+    "floatingIcon": ["🍓", "🍒", "🫐", "🍓", "🍇"],
+    "shortIntro": "A Special Day For A Special Person!",
+    "longMessage": "မွေးနေ့မှာ ပျော်ရွှင်ပါစေ ယွန်း။ သူငယ်ချင်းလို ပြန်ပြီး နေရပေမဲ့ ခင်ဗျားကို အရင်လိုမျိုး ပိုင်ဆိုင်ချင်သေးကြောင်း သိစေချင်တယ်။ မွေးနေ့မှာ ပျော်ရွှင်ပါစေနော်။🎂",
+    "youtubeId": "",
+    "videoFile": "/videos/nc.mp4",
+    "photo1": "photos/n1.jpg",
+    "photo2": "photos/n2.jpg",
+    "photo3": "",
+    "cakeImage": "photos/cake.webp",
+    "bgImage": "",
+    "theme": {
+      "primary": "#ec4899",
+      "secondary": "rgba(255, 255, 255, 0.3)",
+      "text": "#500724"
+    }
   }
 ]
