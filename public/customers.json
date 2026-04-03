@@ -46,7 +46,7 @@
     "type": "birthday",
     "title": "Happy Birthday",
     "name": "Yoon",
-    "floatingIcon": ["🍓", "🍒", "🫐", "🍓", "🍇"],
+    "floatingIcon": ["🥝", "🍒", "🫐", "🍇","🍇"],
     "shortIntro": "A Special Day For A Special Person!",
     "longMessage": "မွေးနေ့မှာ ပျော်ရွှင်ပါစေ ယွန်း။ သူငယ်ချင်းလို ပြန်ပြီး နေရပေမဲ့ ခင်ဗျားကို အရင်လိုမျိုး ပိုင်ဆိုင်ချင်သေးကြောင်း သိစေချင်တယ်။ မွေးနေ့မှာ ပျော်ရွှင်ပါစေနော်။🎂",
     "youtubeId": "",
@@ -54,7 +54,7 @@
     "photo1": "photos/n2.jpg",
     "photo2": "photos/n1.jpg",
     "photo3": "",
-    "cakeImage": "photos/cake.webp",
+    "cakeImage": "photos/c4.png",
     "bgImage": "",
     "theme": {
       "primary": "#ec4899",
