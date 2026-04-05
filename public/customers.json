@@ -103,5 +103,26 @@
       "secondary": "rgba(255, 255, 255, 0.3)",
       "text": "#500724"
     }
+  },
+   {
+    "id": "cus-nl-05",
+    "type": "birthday",
+    "title": "Happy Birthday",
+    "name": "",
+    "floatingIcon": ["🍓", "🍒", "🫐", "🍓", "🍇"],
+    "shortIntro": "Happy Birthday to my favorite person!",
+    "longMessage": "HHAPPY BIRTHDAY MY WIFEY 🩷 ပျော်ရွှင်စရာမွေးနေ့လေးဖြစ်ပါစေ အချစ်ရေ 🫶🏿ဒီနှစ်မွေးနေ့မှာ ကိုတို့ တူတူမရှိနိုင်ပေမဲ့ နောက်နှစ်တွေကျ တူတူရှိသွားချင်ပါတယ် အချစ်ရယ် ၊ ကိုကို့ဘေဘီလေး ပညာတက်ကြီးဖြစ်ပါစေ၊ မေမေ့အပေါ် သိတက်နားလည်တဲဘ သမီးကောင်းရတနာလေးဖြစ်ပါစေ၊ အိမ်မက်တွေအကောင်ထည်ဖော်ပြီး ချစ်ရသူတွေနဲ့(ဉပမာကိုကိုနဲ့ပေါ့)တူတူရှိနေနိုင်ပါစေလို့ ဆုတောင်းပေးလိုက်ပါတယ် အချစ်လေးရေ 🤍",
+    "youtubeId": "",
+    "videoFile": "/videos/nl.mp4",
+    "photo1": "photos/nl1.jpg",
+    "photo2": "photos/nl2.jpg",
+    "photo3": "",
+    "cakeImage": "photos/cake.webp",
+    "bgImage": "",
+    "theme": {
+      "primary": "#ec4899",
+      "secondary": "rgba(255, 255, 255, 0.3)",
+      "text": "#500724"
+    }
   }
 ]
