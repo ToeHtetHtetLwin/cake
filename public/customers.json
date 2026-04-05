@@ -41,12 +41,12 @@
       "text": "#500724"
     }
   },
-   {
+  {
     "id": "cus-nc-03",
     "type": "birthday",
     "title": "Happy Birthday",
     "name": "Yoon",
-    "floatingIcon": ["🥝", "🍒", "🫐", "🍇","🍇"],
+    "floatingIcon": ["🥝", "🍒", "🫐", "🍇", "🍇"],
     "shortIntro": "A Special Day For A Special Person!",
     "longMessage": "မွေးနေ့မှာ ပျော်ရွှင်ပါစေ ယွန်း။ သူငယ်ချင်းလို ပြန်ပြီး နေရပေမဲ့ ခင်ဗျားကို အရင်လိုမျိုး ပိုင်ဆိုင်ချင်သေးကြောင်း သိစေချင်တယ်။ မွေးနေ့မှာ ပျော်ရွှင်ပါစေနော်။🎂",
     "youtubeId": "",
@@ -55,6 +55,27 @@
     "photo2": "photos/n1.jpg",
     "photo3": "",
     "cakeImage": "photos/c4.png",
+    "bgImage": "",
+    "theme": {
+      "primary": "#ec4899",
+      "secondary": "rgba(255, 255, 255, 0.3)",
+      "text": "#500724"
+    }
+  },
+  {
+    "id": "cus-moon-04",
+    "type": "birthday",
+    "title": "Happy Birthday",
+    "name": "",
+    "floatingIcon": ["🍓", "🍒", "🫐", "🍓", "🍇"],
+    "shortIntro": "A Special Day For A Special Person!",
+    "longMessage": "မွေးနေ့မှာပျော်ရွှင်ပါစေပီတာလေး🤍 ဒီနေ့ကျရောက်တဲ့မွေးနေ့မှစပြီး‌အကောင်းဆုံးလို့သတ်မှတ်ထားတဲ့အရာတွေပဲရရှိပါစေ⭐၊ ဖြစ်ချင်တဲ့ဆန္ဒ၊အိမ်မက်၊ရည်မှန်းချက်တိုင်းကိုလဲ အကောင်ထည်ဖော်နိုင်တဲ့သူဖြစ်ပါစေရှင့်၊ နေ့ရက်တိုင်းကိုပျော်ရွှင်စွာဖြတ်သန်းနိုင်ပြီး ချစ်ရတဲ့သူတွေနဲ့ ပျော်ပျော်ရွှင်ရွှင်နေနိုင်ပါစေ ( ps: နှစ်လငယ်တဲ့မောင်လေးအတွက်)🎂",
+    "youtubeId": "aYZrUbcoHTs",
+    "videoFile": "",
+    "photo1": "photos/moon1.jpg",
+    "photo2": "photos/moon2.jpg",
+    "photo3": "",
+    "cakeImage": "photos/cake.webp",
     "bgImage": "",
     "theme": {
       "primary": "#ec4899",
