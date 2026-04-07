@@ -124,5 +124,26 @@
       "secondary": "rgba(255, 255, 255, 0.3)",
       "text": "#500724"
     }
+  },
+     {
+    "id": "cus-ca-06",
+    "type": "birthday",
+    "title": "Happy Birthday",
+    "name": "",
+    "floatingIcon": ["🍓", "🍒", "🫐", "🍓", "🍇"],
+    "shortIntro": "A Special Day For A Special Person!",
+    "longMessage": "🥳မွေးနေ့မှစပြီးမေမေ့ရဲ့ငါးလေး အစစအရာရာအဆင်ပြေပါစေ🍀။ ❄️အေးချမ်းတဲ့ရပ်ဝန်းမှာပျော်ပျော်နေပါ မေမေ့ငါးလေးရေ...🐳",
+    "youtubeId": "",
+    "videoFile": "/videos/khin.mp4",
+    "photo1": "photos/ca1.jpg",
+    "photo2": "photos/ca2.jpg",
+    "photo3": "",
+    "cakeImage": "photos/cake.webp",
+    "bgImage": "",
+    "theme": {
+      "primary": "#ec4899",
+      "secondary": "rgba(255, 255, 255, 0.3)",
+      "text": "#500724"
+    }
   }
 ]
