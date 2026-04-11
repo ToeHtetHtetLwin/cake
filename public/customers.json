@@ -145,5 +145,26 @@
       "secondary": "rgba(255, 255, 255, 0.3)",
       "text": "#500724"
     }
+  },
+      {
+    "id": "cus-kh-07",
+    "type": "birthday",
+    "title": "Happy Birthday",
+    "name": "",
+    "floatingIcon": ["🍓", "🍒", "🫐", "🍓", "🍇"],
+    "shortIntro": "A Special Day For A Special Person!",
+    "longMessage":"မွေးနေ့မှာ ပျော်ရွှင်ပါစေဗျ💝။ မင်းနဲ့ တွေ့ခွင့်ရတာ အကောင်းဆုံး ဆုလာဘ်ပါ။ အများကြီး သတိရနေမယ်🫶။ အရာရာဂရုစိုက်ပါဗျ။",
+    "youtubeId": "",
+    "videoFile": "/videos/lu.mp4",
+    "photo1": "photos/kh1.jpg",
+    "photo2": "photos/kh2.jpg",
+    "photo3": "",
+    "cakeImage": "photos/cake.webp",
+    "bgImage": "",
+    "theme": {
+      "primary": "#ec4899",
+      "secondary": "rgba(255, 255, 255, 0.3)",
+      "text": "#500724"
+    }
   }
 ]
