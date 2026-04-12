@@ -1,5 +1,5 @@
 <div *ngIf="customer()" class="min-h-screen flex flex-col items-center justify-center overflow-hidden relative font-sans px-3 transition-all duration-700 bg-cover bg-center"
-     [ngStyle]="{'background-image': customer().bgImage ? 'url(' + customer().bgImage + ')' : 'none', 'background-color': customer().theme.secondary}">
+      [ngStyle]="{'background-image': customer().bgImage ? 'url(' + customer().bgImage + ')' : 'none', 'background-color': customer().theme.secondary}">
   
   <div class="absolute inset-0 pointer-events-none z-0">
     <div *ngFor="let b of floatingElements" class="floating-item absolute text-3xl opacity-20">{{ b }}</div>
@@ -57,7 +57,9 @@
           <video *ngIf="!customer().youtubeId && customer().videoFile" 
                  class="w-full h-full object-contain" 
                  controls 
-                 autoplay>
+                 autoplay 
+                 playsinline 
+                 webkit-playsinline>
             <source [src]="videoUrl()" type="video/mp4">
             Your browser does not support the video tag.
           </video>
@@ -73,6 +75,5 @@
 
       <p id="dialog-typewriter" class="text-sm sm:text-base leading-relaxed italic" [style.color]="customer().theme.text"></p>
     </div>
-    
   </p-dialog>
 </div>
