@@ -104,7 +104,7 @@
       "text": "#500724"
     }
   },
-   {
+  {
     "id": "cus-nl-05",
     "type": "birthday",
     "title": "Happy Birthday",
@@ -125,7 +125,7 @@
       "text": "#500724"
     }
   },
-     {
+  {
     "id": "cus-ca-06",
     "type": "birthday",
     "title": "Happy Birthday",
@@ -146,18 +146,39 @@
       "text": "#500724"
     }
   },
-      {
+  {
     "id": "cus-kh-07",
     "type": "birthday",
     "title": "Happy Birthday",
     "name": "",
     "floatingIcon": ["🍓", "🍒", "🫐", "🍓", "🍇"],
     "shortIntro": "A Special Day For A Special Person!",
-    "longMessage":"မွေးနေ့မှာ ပျော်ရွှင်ပါစေဗျ💝။ မင်းနဲ့ တွေ့ခွင့်ရတာ အကောင်းဆုံး ဆုလာဘ်ပါ။ အများကြီး သတိရနေမယ်🫶။ အရာရာဂရုစိုက်ပါဗျ။",
+    "longMessage": "မွေးနေ့မှာ ပျော်ရွှင်ပါစေဗျ💝။ မင်းနဲ့ တွေ့ခွင့်ရတာ အကောင်းဆုံး ဆုလာဘ်ပါ။ အများကြီး သတိရနေမယ်🫶။ အရာရာဂရုစိုက်ပါဗျ။",
     "youtubeId": "",
     "videoFile": "/videos/lu.mp4",
     "photo1": "photos/kh1.jpg",
     "photo2": "photos/kh2.jpg",
+    "photo3": "",
+    "cakeImage": "photos/cake.webp",
+    "bgImage": "",
+    "theme": {
+      "primary": "#ec4899",
+      "secondary": "rgba(255, 255, 255, 0.3)",
+      "text": "#500724"
+    }
+  },
+  {
+    "id": "cus-l-08",
+    "type": "birthday",
+    "title": "Happy Birthday",
+    "name": "",
+    "floatingIcon": ["🍓", "🍒", "🫐", "🍓", "🍇"],
+    "shortIntro": "A Special Day For A Special Person!",
+    "longMessage": "You came into my life from the moment , everything became brighter and more meaningful. You are not just my girlfriend, you are my happiness, my peace, and my favorite person in the world. I’m so grateful for every smile we’ve shared and every moment we’ve spent together.I promise to keep loving you more every single day. Happy Birthday again, my heart 💕",
+    "youtubeId": "",
+    "videoFile": "/videos/nl.mp4",
+    "photo1": "photos/l1.jpg",
+    "photo2": "photos/l2.jpg",
     "photo3": "",
     "cakeImage": "photos/cake.webp",
     "bgImage": "",
