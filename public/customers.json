@@ -187,5 +187,26 @@
       "secondary": "rgba(255, 255, 255, 0.3)",
       "text": "#500724"
     }
+  },
+    {
+    "id": "cus-khant-09",
+    "type": "birthday",
+    "title": "Happy Birthday",
+    "name": "",
+    "floatingIcon": ["🍓", "🍒", "🫐", "🍓", "🍇"],
+    "shortIntro": "A Special Day For A Special Person!",
+    "longMessage": "ဘေဘီ‌🤍 ဘေဘီနဲ့တွေ့ခွင့်ရတာက ကို့အတွက် အကောင်းဆုံးအရာတစ်ခုပါ ဘေဘီရဲ့အပြုံးလေးတွေ ဘေဘီရဲ့အပူအနွေးတွေက ကိုနေ့တိုင်းအလှပဆုံးဖြစ်စေပါတယ် ဒီနှစ်လည်း ပိုပြီးပျော်ရွှင်မှုတွေ၊ အောင်မြင်မှုတွေ ရရှိပါစေ ကိုက မင်းအနားမှာ အမြဲရှိနေမယ် အများကြီးချစ်တယ်နော်🤍",
+    "youtubeId": "",
+    "videoFile": "/videos/perfect.mp4",
+    "photo1": "photos/khant1.jpg",
+    "photo2": "photos/khant2.jpg",
+    "photo3": "",
+    "cakeImage": "photos/cake.webp",
+    "bgImage": "",
+    "theme": {
+      "primary": "#ec4899",
+      "secondary": "rgba(255, 255, 255, 0.3)",
+      "text": "#500724"
+    }
   }
 ]
