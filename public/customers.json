@@ -229,5 +229,26 @@
       "secondary": "rgba(255, 255, 255, 0.3)",
       "text": "#500724"
     }
+  },
+   {
+    "id": "cus-11",
+    "type": "birthday",
+    "title": "Happy Birthday",
+    "name": "",
+    "floatingIcon": ["🍓", "🍒", "🫐", "🍓", "🍇"],
+    "shortIntro": "A Special Day For A Special Person!",
+    "longMessage": "🎉Happy birthday ပါ’ယု’ရေ🎉မွေးနေ့မှာပျော်ရွှင်ပါစေနော် အစစအရာရာအဆင်ပြေပြီးဘဝကိုအခက်အခဲမရှိအဆင်ပြေပြေဖြတ်သန်းနိုင်ပါစေဗျာ အရမ်းချစ်တယ်နော်…😘",
+    "youtubeId": "",
+    "videoFile": "/videos/come.mp4",
+    "photo1": "photos/nm1.jpg",
+    "photo2": "photos/nm2.jpg",
+    "photo3": "",
+    "cakeImage": "photos/c2.png",
+    "bgImage": "",
+    "theme": {
+      "primary": "#ec4899",
+      "secondary": "rgba(255, 255, 255, 0.3)",
+      "text": "#500724"
+    }
   }
 ]
