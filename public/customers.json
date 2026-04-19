@@ -349,32 +349,6 @@
       "secondary": "rgba(255, 255, 255, 0.3)",
       "text": "#500724"
     }
-  },
-  {
-    "id": "cus-690",
-    "type": "birthday",
-    "title": "Happy Birthday",
-    "name": "Babe",
-    "floatingIcon": [
-      "🍓",
-      "🍒",
-      "🫐",
-      "🍓",
-      "🍇"
-    ],
-    "shortIntro": "Hope this is a special day!",
-    "longMessage": "မင်းရဲ့​မွေး​နေ့မှာထူးထူးခြားခြား​​လေးဖြစ်​​စေချင်တယ်။ အထူးသဖြင့် မင်းကို​ပျော်ရွှင်​စေချင်ပါတယ်။ happy birthday ပါ babe🩷",
-    "youtubeId": "",
-    "videoFile": "/videos/z.mp4",
-    "photo1": "photos/z1.jpg",
-    "photo2": "photos/z2.jpg",
-    "photo3": "",
-    "cakeImage": "photos/stcake.png",
-    "bgImage": "",
-    "theme": {
-      "primary": "#ec4899",
-      "secondary": "rgba(255, 255, 255, 0.3)",
-      "text": "#500724"
-    }
   }
+
 ]
