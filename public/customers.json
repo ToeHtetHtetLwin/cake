@@ -349,6 +349,32 @@
       "secondary": "rgba(255, 255, 255, 0.3)",
       "text": "#500724"
     }
+  },
+  {
+    "id": "cus-13",
+    "type": "birthday",
+    "title": "Happy Birthday",
+    "name": "KO",
+    "floatingIcon": [
+      "🍓",
+      "🍒",
+      "🫐",
+      "🍓",
+      "🍇"
+    ],
+    "shortIntro": "A Special Day For A Special Person!",
+    "longMessage": "Happy Birthday ပါ ကိုရေ🎂🫶🏽 မွေးနေ့မှာပျော်ရွှင်ပါစေ ကလေးရေ….လူ့လောကကြီးထဲကို ရောက်ရှိလာပြီး ချစ်ရဲ့ ချစ်သူကောင်လေးအဖြစ်နဲ့ ရှင်သန်နေထိုင် နေပေးလို့ ကျေးဇူးပါနော်🥺❤️ချစ်ရဲ့အနားမှာ နောင်နှစ်ပေါင်းတစ်ရာအထိ ကျန်းကျန်းမာမာ ပျော်ပျော်ရွှင်ရွှင်နဲ့ နေထိုင်နိုင်ပါစေ ချစ်သူလေးရေ🫶🏽❤️ဒီနှစ်မွေးနေ့တော့အတူမရှိနိုင်တော့ပေမယ့် နောက်နှစ်တော့ အတူရှိရဖို့မျှော်လင့်မိပါတယ်😞❤️",
+    "youtubeId": "",
+    "videoFile": "/videos/hbd.mp4",
+    "photo1": "photos/sai1.jpg",
+    "photo2": "photos/sai2.jpg",
+    "photo3": "photos/sai3.jpg",
+    "cakeImage": "photos/cakecus.png",
+    "bgImage": "",
+    "theme": {
+      "primary": "#ec4899",
+      "secondary": "rgba(255, 255, 255, 0.3)",
+      "text": "#500724"
+    }
   }
-
 ]
